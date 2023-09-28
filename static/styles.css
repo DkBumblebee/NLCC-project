@@ -1,0 +1,220 @@
+
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background image for the body (replace 'church-bg.jpg' with your image) */
+body {
+    background-image: url('fee.png');
+    background-size: cover;
+    font-family: 'Times New Roman', serif;
+}
+
+/* Style the header with a background color and center-align text */
+header {
+    background-color: #8e1616; /* Dark red background color */
+    color: black; /* Text color for the header */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.section-heading {
+    font-size: 5rem; /* Adjust the font size as needed */
+    font-weight: bold;
+    text-align: center;
+    color: #333; /* Change the text color to your preference */
+    margin-bottom: 10px;
+}
+
+/* Style the section subtitle */
+.section-subtitle {
+    font-size: 1.2rem; /* Adjust the font size as needed */
+    text-align: center;
+    color: #666; /* Change the text color to your preference */
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Text color for the links */
+    font-weight: bold;
+}
+
+.event-item {
+    text-align: center; /* Center the image horizontally */
+    display: flex;
+    justify-content: center; /* Center the image vertically */
+    align-items: center;
+    height: 300px; /* Adjust the height to your desired value */
+}
+
+/* Style the main content section */
+main {
+    padding: 20px;
+}
+
+/* Style the hero section */
+.hero-section {
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #6a0d0d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #8e1616; /* Darker red on hover */
+}
+
+/* Style the upcoming events section */
+.upcoming-events {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.upcoming-events h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.upcoming-events ul {
+    list-style: none;
+}
+
+.upcoming-events li {
+    margin-bottom: 20px;
+}
+
+/* Style the about us section */
+.about-us {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.about-us p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #8e1616;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-links {
+    margin-top: 10px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
+
+/* Style the image of the about page */
+.image-container {
+    position: relative;
+    display: inline-block; /* Adjust this property as needed */
+}
+
+/* Style the image */
+.about-image {
+    max-width: 100%; /* Ensure the image fits within its container */
+    display: block;
+}
+
+/* about image text */
+.image-text {
+    position: absolute;
+    top: 50%; /* Vertical position */
+    left: 50%; /* Horizontal position */
+    transform: translate(-50%, -50%); /* Center the text both horizontally and vertically */
+    font-size: 25px;
+}
+
+/* About group sty */
+.about-group {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.about-group h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about-group p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.about-group ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-group li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.image1 {
+    height: auto;
+    weight: 350px;
+}
