@@ -4,7 +4,6 @@ body, h1, p, ul, li, a {
     padding: 0;
 }
 
-/* Style the header with a background color and center-align text */
 header {
     background-color: #8e1616; /* Dark red background color */
     color: black; /* Text color for the header */
@@ -13,21 +12,21 @@ header {
 }
 
 .section-heading {
-    font-size: 5rem; /* Adjust the font size as needed */
+    font-size: 5rem; /* Font size as needed */
     font-weight: bold;
     text-align: center;
-    color: #333; /* Change the text color to your preference */
+    color: #333; 
     margin-bottom: 10px;
 }
 
-/* Style the section subtitle */
+/* Subtitle */
 .section-subtitle {
-    font-size: 1.2rem; /* Adjust the font size as needed */
+    font-size: 1.2rem; 
     text-align: center;
-    color: #666; /* Change the text color to your preference */
+    color: #666; 
 }
 
-/* Style the navigation links */
+/* Navigation links */
 nav ul {
     list-style: none;
 }
@@ -39,26 +38,26 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #fff; /* Text color for the links */
+    color: #fff; 
     font-weight: bold;
 }
 
 .event-item {
-    text-align: center; /* Center the image horizontally */
+    text-align: center; 
     display: flex;
-    justify-content: center; /* Center the image vertically */
+    justify-content: center; 
     align-items: center;
-    height: 300px; /* Adjust the height to your desired value */
+    height: 300px; 
 }
 
-/* Style the main content section */
+/* Main content section */
 main {
     padding: 20px;
 }
 
 /* Style the hero section */
 .hero-section {
-    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -89,7 +88,7 @@ main {
     background-color: #8e1616; /* Darker red on hover */
 }
 
-/* Style the upcoming events section */
+/* Upcoming events section */
 .upcoming-events {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -110,7 +109,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Style the about us section */
+/* About us section */
 .about-us {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -129,7 +128,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Style the footer */
+
 footer {
     background-color: #8e1616;
     color: #fff;
@@ -153,19 +152,19 @@ footer {
     text-decoration: underline;
 }
 
-/* Style the image of the about page */
+/* The image of the about page */
 .image-container {
     position: relative;
-    display: inline-block; /* Adjust this property as needed */
+    display: inline-block; 
 }
 
-/* Style the image */
+
 .about-image {
-    max-width: 100%; /* Ensure the image fits within its container */
+    max-width: 100%;
     display: block;
 }
 
-/* about image text */
+/* Image text */
 .image-text {
     position: absolute;
     top: 50%; /* Vertical position */
@@ -174,7 +173,7 @@ footer {
     font-size: 25px;
 }
 
-/* About group sty */
+
 .about-group {
     margin-bottom: 30px;
     padding: 20px;
